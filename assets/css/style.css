@@ -198,7 +198,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("https://raw.githubusercontent.com/RakeshBhardwaj-coder/RakeshBhardwaj.github.io/MyPortfolio/assets/img/hero-bg.jpg") top center;
   background-size: cover;
 }
 #hero:before {
@@ -217,20 +217,20 @@ h1, h2, h3, h4, h5, h6 {
   min-width: 300px;
 }
 #hero h1 {
-  margin: 0 0 10px 0;
+  margin: 0 0 50px 0;
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
-  color: #fff;
+  color: #ff7631;
 }
 #hero p {
-  color: #fff;
-  margin-bottom: 50px;
+  color: #FFF;
+  margin-bottom: 90px;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
 }
 #hero p span {
-  color: #fff;
+  color: #ff7631;
   padding-bottom: 4px;
   letter-spacing: 1px;
   border-bottom: 3px solid #149ddd;
@@ -365,9 +365,26 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
-.skills .progress {
+.skills .progress{
+  height: 100%;
+  /* display: block; */
+  background: none;
+  border-radius: 0;
+  justify-content: center;
+
+}
+.skills .languageAndTools{
+  height: 100%;
+  /* display: block; */
+  background: none;
+  /* border-radius: 0; */
+  justify-content: center;
+
+}
+
+/* .skills .progress {
   height: 60px;
   display: block;
   background: none;
@@ -395,7 +412,7 @@ section {
   height: 10px;
   transition: 0.9s;
   background-color: #149ddd;
-}
+} */
 
 /*--------------------------------------------------------------
 # Resume
