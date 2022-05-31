@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+Crawl-Delay: 20
+
+Sitemap: http://www.rakeshbhardwajportfolio.ga/sitemap.xml
