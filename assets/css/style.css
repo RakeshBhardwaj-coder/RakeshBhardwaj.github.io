@@ -196,18 +196,6 @@ h1, h2, h3, h4, h5, h6 {
 # Hero Section
 --------------------------------------------------------------*/
 
-.img-responsive.mobile {
-  display: none;
-}
-
-@media only screen and (max-device-width: 480px) {
-  .img-responsive {
-    display: none;
-  }
-  .img-responsive.mobile {
-    display: block;
-  }
-}
 #hero {
   position: relative;
   text-align: center;
@@ -225,7 +213,7 @@ h1, h2, h3, h4, h5, h6 {
   /* background-size: cover; */
   /* https://raw.githubusercontent.com/RakeshBhardwaj-coder/RakeshBhardwaj.github.io/MyPortfolio/assets/img/hero-bg.jpg */
 }
-#hero:before {
+/* #hero:before {
   content: "";
   background: rgba(5, 13, 24, 0.3);
   position: absolute;
@@ -234,45 +222,83 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   right: 0;
   z-index: 1;
+} */
+@media (orientation: landscape)  {
+  
+  #hero  .hero-container h1{
+    color: #000000;
+    font-size: xx-large;
+    position: absolute;
+    top: 30%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+  }
+  #hero  .hero-container p{
+    color: #000000;
+    font-size: large;
+    position: absolute;
+    top: 35%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+  }
 }
-#hero  .hero-container .hero-text{
-
-
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+@media (orientation: portrait)  {
+  #hero  .hero-container h1{
+    color: #ff7300;
+    font-size: 25px;
+    line-height: 36px;
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  #hero  .hero-container p{
+    color: #ffffff;
+    font-size: 18px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 }
 /* #hero .hero-container {
   position: relative;
   z-index: 2;
   min-width: 300px;
 } */
-#hero h1 {
+/* #hero h1 {
   margin: 0 0 10px 0;
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
   color: #0080ff;
-}
-#hero p {
+} */
+/* #hero p {
   color: #FFF;
   margin-bottom: 50px;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
-}
-#hero p span {
-  color: #ff7631;
-  padding-bottom: 4px;
-  letter-spacing: 1px;
-  border-bottom: 3px solid #ff7631;
-}
-@media (min-width: 1024px) {
+} */
+
+@media (orientation: landscape) {
   #hero {
     background-attachment: fixed;
   }
+  #hero p span {
+    color: #050d3b;
+    padding-bottom: 4px;
+    letter-spacing: 1px;
+    border-bottom: 3px solid #000000;
+  }
 }
-@media (max-width: 768px) {
+
+@media (orientation: portrait) {
+  #hero p span {
+    color: #20ce7a;
+    padding-bottom: 4px;
+    letter-spacing: 1px;
+    border-bottom: 3px solid #20ce7a;
+  }
   #hero h1 {
     font-size: 28px;
     line-height: 36px;
