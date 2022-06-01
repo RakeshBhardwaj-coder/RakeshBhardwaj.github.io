@@ -19,7 +19,7 @@
       
       if( ! action ) {
         displayError(thisForm, 'The form action property is not set!')
-        return;
+        returnServices;
       }
       thisForm.querySelector('.loading').classList.add('d-block');
       thisForm.querySelector('.error-message').classList.remove('d-block');
