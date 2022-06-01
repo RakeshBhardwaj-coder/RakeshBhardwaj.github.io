@@ -227,7 +227,7 @@ h1, h2, h3, h4, h5, h6 {
   
   #hero  .hero-container h1{
     color: #000000;
-    font-size: xx-large;
+    font-size: x-large;
     position: absolute;
     top: 30%;
     left: 60%;
@@ -243,18 +243,19 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 @media (orientation: portrait)  {
+
   #hero  .hero-container h1{
     color: #ff7300;
-    font-size: 25px;
+    font-size: x-large;
     line-height: 36px;
     position: absolute;
-    top: 42%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
   #hero  .hero-container p{
     color: #ffffff;
-    font-size: 18px;
+    font-size: large;
     position: absolute;
     top: 45%;
     left: 50%;
