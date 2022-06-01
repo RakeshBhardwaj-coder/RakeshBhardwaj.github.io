@@ -246,8 +246,8 @@ h1, h2, h3, h4, h5, h6 {
 
   #hero  .hero-container h1{
     color: #ff7300;
-    font-size: x-large;
-    line-height: 36px;
+    font-size: large;
+    line-height: 150px;
     position: absolute;
     top: 40%;
     left: 50%;
@@ -255,7 +255,7 @@ h1, h2, h3, h4, h5, h6 {
   }
   #hero  .hero-container p{
     color: #ffffff;
-    font-size: large;
+    font-size: medium;
     position: absolute;
     top: 45%;
     left: 50%;
