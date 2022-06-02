@@ -227,7 +227,7 @@ h1, h2, h3, h4, h5, h6 {
   
   #hero  .hero-container h1{
     color: #000000;
-    font-size: x-large;
+    font-size: xx-large;
     position: absolute;
     top: 30%;
     left: 60%;
@@ -468,6 +468,149 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:200);
+.snip1577 {
+  font-family: 'Montserrat', Arial, sans-serif;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 230px;
+  max-width: 315px;
+  width: 100%;
+  color: #fff;
+  text-align: left;
+  font-size: 16px;
+  background: #000;
+}
+
+.snip1577 *,
+.snip1577:before,
+.snip1577:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.snip1577 img {
+  max-width: 100%;
+  backface-visibility: hidden;
+  vertical-align: top;
+}
+
+.snip1577:before,
+.snip1577:after {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  content: '';
+  background-color: #fff;
+  z-index: 1;
+  opacity: 0;
+}
+
+.snip1577:before {
+  width: 0;
+  height: 1px;
+}
+
+.snip1577:after {
+  height: 0;
+  width: 1px;
+}
+
+.snip1577 figcaption {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 15px 20px;
+}
+
+.snip1577 h3,
+.snip1577 h4 {
+  margin: 0;
+  font-size: 1.1em;
+  font-weight: normal;
+  opacity: 0;
+  text-align: center;
+}
+
+.snip1577 h4 {
+  font-size: .8em;
+}
+
+.snip1577 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.snip1577:hover img,
+.snip1577.hover img {
+  zoom: 1;
+  filter: alpha(opacity=20);
+  -webkit-opacity: 0.2;
+  opacity: 0.2;
+}
+.portfolio-item{
+  transition: .5s;
+
+}
+.portfolio-item:hover{
+  transform: scale(1.3);
+
+}
+
+.snip1577:hover:before,
+.snip1577.hover:before,
+.snip1577:hover:after,
+.snip1577.hover:after {
+  opacity: 1;
+  -webkit-transition-delay: 0.25s;
+  transition-delay: 0.25s;
+}
+
+.snip1577:hover:before,
+.snip1577.hover:before {
+  width: 40px;
+}
+
+.snip1577:hover:after,
+.snip1577.hover:after {
+  height: 40px;
+}
+
+.snip1577:hover h3,
+.snip1577.hover h3,
+.snip1577:hover h4,
+.snip1577.hover h4 {
+  opacity: 1;
+}
+
+.snip1577:hover h3,
+.snip1577.hover h3 {
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+
+.snip1577:hover h4,
+.snip1577.hover h4 {
+  -webkit-transition-delay: 0.35s;
+  transition-delay: 0.35s;
+}
+
+/* #portfolio{
+  width: 100%;
+  min-height: 100vh;
+  /* padding: 150px 100px 100px; */
+  /* top: 0; */
+  /* transition: 1s; */
+/* }  */
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
@@ -498,12 +641,40 @@ section {
 .portfolio #portfolio-flters li:last-child {
   margin-right: 0;
 }
-.portfolio .portfolio-wrap {
-  transition: 0.3s;
+
+
+/* .portfolio img{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  transition: .5s;
+
+
+} */
+/* .portfolio .portfolio-content{
   position: relative;
-  overflow: hidden;
-  z-index: 1;
+  padding : 40px ;
+  color: black;
+  transition: .5s;
+} */
+/* .portfolio .portfolio-title{
+  font-size: 18px;
+  text-transform: capitalize;
+  text-align: center;
+  font-weight: 300;
+
 }
+.portfolio .portfolio-info{
+  margin: 20px;
+  font-size: 16px;
+  /* line-height: 30px; */
+  /* text-align: center; */
+/* } */
+
+/* 
 .portfolio .portfolio-wrap::before {
   content: "";
   background: rgba(255, 255, 255, 0.5);
@@ -551,7 +722,7 @@ section {
 .portfolio .portfolio-wrap:hover .portfolio-links {
   opacity: 1;
   bottom: 0;
-}
+} */
 
 /*--------------------------------------------------------------
 # Portfolio Details
