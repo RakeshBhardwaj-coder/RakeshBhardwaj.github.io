@@ -73,11 +73,13 @@ h1, h2, h3, h4, h5, h6 {
   background: #040b14;
   overflow-y: auto;
 }
-#header .profile img {
+#header .profile-img {
   margin: 15px auto;
   display: block;
   width: 120px;
-  border: 8px solid #272424;
+  border: 5px solid #272424;
+  border-radius: 70px;
+  /* border: 8px solid #272424; */
 }
 #header .profile h1 {
   font-size: 24px;
@@ -382,9 +384,10 @@ section {
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
-
+/* #skills h2{
+  text-align: left !important;
+} */
 .skills{
-  display: table;
   margin: 0 auto;
 }
 .skills p{
@@ -399,7 +402,11 @@ section {
   justify-content: center;
 
 }
-.skills .languageAndTools{
+.skills .languageBorder{
+box-sizing: border-box;
+width: 50;
+height: 150;
+  
   border: 2px solid #7f4cab;
   border-radius: 0 50px 0 50px;
   background-color: black;
@@ -1136,4 +1143,9 @@ button[type=submit]:hover {
     width: auto;
     padding-right: 20px 15px;
   }
+}
+
+/* Last Footer  */
+.last-copyright{
+  text-align: center;
 }
