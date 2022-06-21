@@ -403,10 +403,16 @@ section {
 
 }
 .skills .languageBorder{
-box-sizing: border-box;
-width: 50;
-height: 150;
-  
+ 
+ display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.skills .languageAndTools{
+  width: 500px;  
+  text-align: center;
+  justify-content: center;
+  box-sizing: border-box;
   border: 2px solid #7f4cab;
   border-radius: 0 50px 0 50px;
   background-color: black;
