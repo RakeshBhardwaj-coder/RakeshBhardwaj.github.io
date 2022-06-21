@@ -89,6 +89,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 15px auto;
   display: block;
   width: 120px;
+  height: auto;
   border: 5px solid #272424;
   border-radius: 70px;
   /* border: 8px solid #272424; */
