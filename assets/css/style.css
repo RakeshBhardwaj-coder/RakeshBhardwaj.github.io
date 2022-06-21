@@ -9,6 +9,10 @@
 # General
 --------------------------------------------------------------*/
 /* font face added for avoid the invisible texts */
+
+img {
+  aspect-ratio: attr(width) / attr(height);
+}
 @font-face {
   font-family: 'Pacifico';
   font-style: normal;
