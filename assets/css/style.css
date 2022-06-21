@@ -353,6 +353,17 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+.myName{
+  color: #149ddd;
+  font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-weight: 600;
+
+}
+.aboutMe{
+  font-size: large;
+  font-weight: 600;
+}
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
@@ -392,6 +403,7 @@ section {
 }
 .skills p{
   text-align: center;
+  font-size: larger;
 
 }
 .skills .progress{
@@ -483,6 +495,10 @@ section {
 --------------------------------------------------------------*/
 
 @import url(https://fonts.googleapis.com/css?family=Montserrat:200);
+.section-title p{
+  font-size: larger;
+  text-align: center;
+}
 .project-card {
   font-family: 'Montserrat', Arial, sans-serif;
   position: relative;
